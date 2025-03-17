@@ -102,6 +102,7 @@ public class loginForm extends javax.swing.JFrame {
         user = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -115,7 +116,7 @@ public class loginForm extends javax.swing.JFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("NSimSun", 3, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setText("WELCOME TO APPOINTMENT RECORDS SYSTEM!");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 500, -1));
 
@@ -177,6 +178,16 @@ public class loginForm extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("LOGIN FORM:");
         jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 100, 250, -1));
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 2, 12)); // NOI18N
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Forgot Password?");
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 340, 180, -1));
 
         jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 620, 370));
 
@@ -260,6 +271,12 @@ public class loginForm extends javax.swing.JFrame {
         
     }//GEN-LAST:event_loginMouseClicked
 
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        forgotPassword fr = new forgotPassword();
+        fr.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel4MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -299,6 +316,7 @@ public class loginForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel8;

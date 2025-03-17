@@ -105,7 +105,7 @@ public class registrationForm extends javax.swing.JFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 27)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel2.setForeground(new java.awt.Color(51, 51, 51));
         jLabel2.setText(" APPOINTMENT RECORD SYSTEM");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
 
@@ -199,23 +199,23 @@ public class registrationForm extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(ps, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 240, 250, 30));
+        jPanel3.add(ps, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, 250, 30));
 
         ct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ctActionPerformed(evt);
             }
         });
-        jPanel3.add(ct, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 280, 250, 25));
+        jPanel3.add(ct, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, 250, 25));
 
         pass1.setText("Contact:");
-        jPanel3.add(pass1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 280, -1, 20));
+        jPanel3.add(pass1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, 20));
 
         pass.setText("Password:");
-        jPanel3.add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, -1, 30));
+        jPanel3.add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, -1, 30));
 
         username.setText("User Name:");
-        jPanel3.add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, -1, 20));
+        jPanel3.add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, -1, 20));
 
         jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 610, 390));
 

@@ -81,7 +81,7 @@ public class changePass extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0,0,0,60));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         acc_ln.setFont(new java.awt.Font("NSimSun", 3, 18)); // NOI18N
@@ -99,6 +99,7 @@ public class changePass extends javax.swing.JFrame {
 
         jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 370));
 
+        jPanel5.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         oldpass.addActionListener(new java.awt.event.ActionListener() {
@@ -175,10 +176,10 @@ public class changePass extends javax.swing.JFrame {
 
         jPanel3.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 520, 320));
 
+        jPanel6.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setFont(new java.awt.Font("NSimSun", 3, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(153, 153, 153));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("CHANGE PASSWORD");
         jPanel6.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 520, 50));

@@ -118,10 +118,12 @@ public class adminDashboard extends javax.swing.JFrame {
 
         jPanel3.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, 530, 320));
 
+        jPanel6.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setBackground(new java.awt.Color(0, 0,0, 120));
         jLabel1.setFont(new java.awt.Font("NSimSun", 3, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("ADMIN DASHBOARD");
         jPanel6.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 530, 50));

@@ -97,7 +97,7 @@ public class usersForm extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0,0,0,60));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/JENELYN_STAFF-removebg-preview (1).png"))); // NOI18N
@@ -181,10 +181,12 @@ public class usersForm extends javax.swing.JFrame {
 
         jPanel3.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 500, 320));
 
+        jPanel6.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setBackground(new java.awt.Color(0, 0,0, 120));
         jLabel2.setFont(new java.awt.Font("NSimSun", 3, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel2.setForeground(new java.awt.Color(51, 51, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("STAFFS FORM");
         jPanel6.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 50));

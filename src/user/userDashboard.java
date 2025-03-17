@@ -66,7 +66,7 @@ public class userDashboard extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0,0,0,60));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         acc_name.setFont(new java.awt.Font("NSimSun", 3, 18)); // NOI18N
@@ -79,6 +79,7 @@ public class userDashboard extends javax.swing.JFrame {
 
         jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 370));
 
+        jPanel5.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/JENELYN APPOINTMENT (2).png"))); // NOI18N
@@ -110,10 +111,10 @@ public class userDashboard extends javax.swing.JFrame {
 
         jPanel3.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 520, 320));
 
+        jPanel6.setBackground(new java.awt.Color(0, 0,0, 120));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("NSimSun", 3, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("STAFFS DASHBOARD");
         jPanel6.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 520, 50));
